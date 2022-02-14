@@ -1,0 +1,17 @@
+/home/jaco/Projetos-pessoais/projeto-PJ/servidor/src/main/java/br/com/projeto/repository/ProdutoRepository.java
+/home/jaco/Projetos-pessoais/projeto-PJ/servidor/src/main/java/br/com/projeto/modelo/Compra.java
+/home/jaco/Projetos-pessoais/projeto-PJ/servidor/src/main/java/br/com/projeto/repository/CompraRepository.java
+/home/jaco/Projetos-pessoais/projeto-PJ/servidor/src/main/java/br/com/projeto/FinchApplication.java
+/home/jaco/Projetos-pessoais/projeto-PJ/servidor/src/main/java/br/com/projeto/config/validacao/ErroDeValidacaoHandler.java
+/home/jaco/Projetos-pessoais/projeto-PJ/servidor/src/main/java/br/com/projeto/modelo/Usuario.java
+/home/jaco/Projetos-pessoais/projeto-PJ/servidor/src/main/java/br/com/projeto/controller/dto/ProdutoCompraDTO.java
+/home/jaco/Projetos-pessoais/projeto-PJ/servidor/src/main/java/br/com/projeto/repository/UsuarioRepository.java
+/home/jaco/Projetos-pessoais/projeto-PJ/servidor/src/main/java/br/com/projeto/controller/dto/UsuarioDto.java
+/home/jaco/Projetos-pessoais/projeto-PJ/servidor/src/main/java/br/com/projeto/controller/CompraController.java
+/home/jaco/Projetos-pessoais/projeto-PJ/servidor/src/main/java/br/com/projeto/controller/UsuarioController.java
+/home/jaco/Projetos-pessoais/projeto-PJ/servidor/src/main/java/br/com/projeto/controller/dto/ProdutoDto.java
+/home/jaco/Projetos-pessoais/projeto-PJ/servidor/src/main/java/br/com/projeto/config/validacao/ErroDeFormularioDto.java
+/home/jaco/Projetos-pessoais/projeto-PJ/servidor/src/main/java/br/com/projeto/config/validacao/SwaggerConf.java
+/home/jaco/Projetos-pessoais/projeto-PJ/servidor/src/main/java/br/com/projeto/modelo/Produto.java
+/home/jaco/Projetos-pessoais/projeto-PJ/servidor/src/main/java/br/com/projeto/controller/ProdutoController.java
+/home/jaco/Projetos-pessoais/projeto-PJ/servidor/src/main/java/br/com/projeto/controller/dto/TokenDto.java

@@ -1,0 +1,1074 @@
+{
+  "info": {
+    "_postman_id": "1b1cf8ae-50ff-426d-8ae3-276f86fd1aa5",
+    "name": "Ramos-Elementares",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "pesquisarEscritorioRegional",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/escritorio-regional?erCode=132",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "escritorio-regional"
+          ],
+          "query": [
+            {
+              "key": "erCode",
+              "value": "132"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "pesquisarEspecialidades",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/especialidade?codigoEspecialidade=1",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "especialidade"
+          ],
+          "query": [
+            {
+              "key": "codigoEspecialidade",
+              "value": "1"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "pesquisarOcupacao",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/ocupacao",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "ocupacao"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "pesquisarSubOcupacao",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/sub-ocupacao?idOcupacao=1",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "sub-ocupacao"
+          ],
+          "query": [
+            {
+              "key": "idOcupacao",
+              "value": "1"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "pesquisar CEP",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/cep?cep=12190000",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "cep"
+          ],
+          "query": [
+            {
+              "key": "cep",
+              "value": "12190000"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "pesquisar Coberturas",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/cobertura?codigoProduto=EMPRE",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "cobertura"
+          ],
+          "query": [
+            {
+              "key": "codigoProduto",
+              "value": "EMPRE"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "pesquisarCnaeSection",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/cnae/section",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "cnae",
+            "section"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "pesquisarCnaeDivision",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/cnae/division?sectionId=C",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "cnae",
+            "division"
+          ],
+          "query": [
+            {
+              "key": "sectionId",
+              "value": "C"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "pesquisarCnaeGroup",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/cnae/group?sectionId=C&divisionId=23",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "cnae",
+            "group"
+          ],
+          "query": [
+            {
+              "key": "sectionId",
+              "value": "C"
+            },
+            {
+              "key": "divisionId",
+              "value": "23"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "pesquisarCnaeClass",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/cnae/class?sectionId=C&divisionId=23&groupId=23.1",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "cnae",
+            "class"
+          ],
+          "query": [
+            {
+              "key": "sectionId",
+              "value": "C"
+            },
+            {
+              "key": "divisionId",
+              "value": "23"
+            },
+            {
+              "key": "groupId",
+              "value": "23.1"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "pesquisarCnaeSubClass",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/cnae/subclass?sectionId=C&divisionId=23&groupId=23.1&classId=23.19-2",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "cnae",
+            "subclass"
+          ],
+          "query": [
+            {
+              "key": "sectionId",
+              "value": "C"
+            },
+            {
+              "key": "divisionId",
+              "value": "23"
+            },
+            {
+              "key": "groupId",
+              "value": "23.1"
+            },
+            {
+              "key": "classId",
+              "value": "23.19-2"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "consultarAtividadesPermitidas",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/atividades-permitidas",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "atividades-permitidas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "pesquisarCorretor",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor?nome=CORPLAN ADM E CORRETORA DE SEGUROS LTDA",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor"
+          ],
+          "query": [
+            {
+              "key": "nome",
+              "value": "CORPLAN ADM E CORRETORA DE SEGUROS LTDA"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "consultarCombosResidencial",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/consultar-combos",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "consultar-combos"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "consultarFranquiaResidencial",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/consultar-franquia/cep/12190000/tipo-residencia/300002",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "consultar-franquia",
+            "cep",
+            "12190000",
+            "tipo-residencia",
+            "300002"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "cotacao rcp",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"numero\": \"string\",\r\n  \"dadosBase\": {\r\n    \"dataCotacao\": \"2021-12-30T14:44:39.551Z\",\r\n    \"validade\": \"string\",\r\n    \"status\": \"string\"\r\n  },\r\n  \"dadosProponenteCotacao\": {\r\n    \"nome\": \"string\",\r\n    \"dataNascimento\": \"string\",\r\n    \"estadoCivil\": \"string\",\r\n    \"email\": \"string\",\r\n    \"reclamacaoProponente\": true\r\n  },\r\n  \"dadosSeguroCotacao\": {\r\n    \"especialidades\": [\r\n      \"string\"\r\n    ],\r\n    \"franquia\": 0,\r\n    \"estado\": \"string\",\r\n    \"corretagem\": 0,\r\n    \"chefeEquipe\": true,\r\n    \"pessoaJuridica\": true,\r\n    \"diretorClinicoTEcnico\": true,\r\n    \"extensaoRetroativa\": true\r\n  },\r\n  \"opcoesContratacao\": {\r\n    \"importanciaSegurada\": 0\r\n  }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/rcp/salvar",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "rcp",
+            "salvar"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "cotacao rcp",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/rcp/consultar?ate=2021-12-01&nomeSegurado=Calega",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "rcp",
+            "consultar"
+          ],
+          "query": [
+            {
+              "key": "numero",
+              "value": "9823474327",
+              "disabled": true
+            },
+            {
+              "key": "de",
+              "value": "2021-07-01",
+              "disabled": true
+            },
+            {
+              "key": "ate",
+              "value": "2021-12-01"
+            },
+            {
+              "key": "nomeSegurado",
+              "value": "Calega"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "cotacao residencial",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"numero\": \"string\",\r\n  \"dadosBase\": {\r\n    \"dataCotacao\": \"2021-12-30T14:48:07.270Z\",\r\n    \"validade\": \"string\",\r\n    \"status\": \"string\"\r\n  },\r\n  \"dadosImportantesCotacao\": {\r\n    \"nomeSegurado\": \"string\",\r\n    \"cpf\": \"string\",\r\n    \"cep\": \"string\",\r\n    \"tipoLogradouro\": \"string\",\r\n    \"nomeLogradouro\": \"string\",\r\n    \"numero\": 0,\r\n    \"complemento\": \"string\",\r\n    \"bairro\": \"string\",\r\n    \"cidade\": \"string\",\r\n    \"estado\": \"string\",\r\n    \"tipoImovel\": \"string\",\r\n    \"tipoPropriedade\": \"string\",\r\n    \"tipoConstrucao\": \"string\",\r\n    \"bonus\": \"string\",\r\n    \"comissaoCorretor\": 0\r\n  },\r\n  \"maisInformacoes\": {\r\n    \"localizacaoCondominio\": true,\r\n    \"gradeJanelas\": true,\r\n    \"alarmeMonitorado\": true,\r\n    \"vigilancia\": true,\r\n    \"cercotinaCercaEletrica\": true\r\n  },\r\n  \"seguroDiferenciado\": {\r\n    \"incendioRaioExplosaoFumacaAeronave\": 0,\r\n    \"perdaPagamentoAluguel\": 0,\r\n    \"responsabilidadeCivilFamiliar\": 0,\r\n    \"rouboFurtoQualificadoBens\": 0,\r\n    \"danosEletricos\": 0,\r\n    \"vendavalFuracaoCiclone\": 0,\r\n    \"quebraVidros\": 0,\r\n    \"rompimentoTUbulacao\": 0,\r\n    \"impactoVeiculosTerrestres\": 0,\r\n    \"recomposicaoDocumento\": 0,\r\n    \"tumultoGrevesLockouts\": 0,\r\n    \"escritorioResidencial\": 0\r\n  },\r\n  \"limiteMaximoIndenizacaoCotacao\": {\r\n    \"limiteMaximoIndenizacao\": 0\r\n  }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/residencial/salvar",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "residencial",
+            "salvar"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "cotacao residencial",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/residencial/consultar?numero=9823474327&de=2021-07-01&ate=2021-12-01&nomeSegurado=Calega",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "residencial",
+            "consultar"
+          ],
+          "query": [
+            {
+              "key": "numero",
+              "value": "9823474327"
+            },
+            {
+              "key": "de",
+              "value": "2021-07-01"
+            },
+            {
+              "key": "ate",
+              "value": "2021-12-01"
+            },
+            {
+              "key": "nomeSegurado",
+              "value": "Calega"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "cotacao empresarial - salvar",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          },
+          {
+            "key": "company",
+            "value": "15469177000109",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"numero\":\"9823474327\",\r\n   \"dadosBase\":{\r\n      \"dataCotacao\":\"2021-06-01T12:17:49.133Z\",\r\n      \"validade\":\"2021-11-30\",\r\n      \"status\":\"OK\"\r\n   },\r\n   \"dadosImportantes\":{\r\n      \"proponente\":\"Mário Calegaro\",\r\n      \"tipoPessoa\":\"J\",\r\n      \"cpf\":\"37618799603\",\r\n      \"telefone\":\"992871654\",\r\n      \"tipoTelefone\":\"mobile\"\r\n   },\r\n   \"dadosCalculo\":{\r\n      \"inicioVigencia\":\"2021-10-09\",\r\n      \"fimVigencia\":\"2022-10-09\",\r\n      \"tipoApolice\":\"new\",\r\n      \"numeroApolice\":\"857343\",\r\n      \"classeBonus\":\"30002\",\r\n      \"cic\":\"PCR B9\",\r\n      \"codigoSUSEP\":\"1234\",\r\n      \"comissao\":0.1,\r\n      \"imprimeDadosComissaoOrcamento\":true,\r\n      \"quantidadeLocalRisco\":1\r\n   },\r\n   \"coCorretagem\":[\r\n      {\r\n         \"codigoCorretor\":\"21234\",\r\n         \"nomeCorretor\":\"Teste Corretor\",\r\n         \"codigoSUSEP\":2134,\r\n         \"comissao\":\"0\",\r\n         \"descontoComercial\":\"0\"\r\n      }\r\n   ],\r\n   \"dadosLocalRisco\":[\r\n      {\r\n         \"cep\":\"01546010\",\r\n         \"tipoLogradouro\":\"Rua\",\r\n         \"logradouro\":\"Rua Teste\",\r\n         \"numero\":20,\r\n         \"complemento\":\"\",\r\n         \"bairro\":\"centro\",\r\n         \"cidade\":\"Sao Paulo\",\r\n         \"estado\":\"SP\",\r\n         \"tipoConstrucao\":\"30001\",\r\n         \"ocupacao\":\"135\",\r\n         \"subOcupacao\":\"71\"\r\n      }\r\n   ],\r\n   \"coberturaServicos\":{\r\n      \"coberturaEstruturaFisicaConteudo\":{\r\n         \"incendioRaioExplosaoFumacaAeronave\":\"1000.0\",\r\n         \"cargaDescargaIcamentoDescida\":\"1000.0\",\r\n         \"materialEstadoFusao\":\"1000.0\",\r\n         \"mercadoriaAmbienteFrigorificado\":\"1000.0\",\r\n         \"mercadoriaProcessoFabricacao\":\"1000.0\",\r\n         \"danosEletricos\":\"1000.0\",\r\n         \"demolicaoDesentulho\":\"1000.0\",\r\n         \"despesasInstalacaoNovoLocal\":\"1000.0\",\r\n         \"exposicaoVeiculos\":\"1000.0\",\r\n         \"equipamentosPortateisNacional\":\"1000.0\",\r\n         \"equipamentosPortateisMundial\":\"1000.0\",\r\n         \"equipamentosMoveisComTracao\":\"1000.0\",\r\n         \"equipamentosMoveisSemTracao\":\"1000.0\",\r\n         \"equipamentosExposicao\":\"1000.0\",\r\n         \"equipamentosEletronicos\":\"1000.0\",\r\n         \"equipamentosCinematograficos\":\"1000.0\",\r\n         \"equipamentosArrendadosTerceiros\":\"1000.0\",\r\n         \"impactorVeiculosTerrestres\":\"1000.0\",\r\n         \"paineisAvisosLuminososLetreiros\":\"1000.0\",\r\n         \"quebraVidros\":\"1000.0\",\r\n         \"recomposicaoRegistrosDocumentos\":\"1000.0\",\r\n         \"rouboFurtoValores\":\"1000.0\",\r\n         \"rouboFurtoQualificadoBensMercadorias\":\"1000.0\",\r\n         \"movimentacaoInterna\":\"1000.0\",\r\n         \"quebraMaquinas\":\"1000.0\",\r\n         \"sistemaFixoCombateIncendios\":\"1000.0\",\r\n         \"tumultosGrevesLockouts\":\"1000.0\",\r\n         \"vazamentoTanqueRupturaTubulacao\":\"1000.0\",\r\n         \"vendavalFuracaoCiclone\":\"1000.0\"\r\n      },\r\n      \"coberturaRiscoEconomicoFinanceiro\":{\r\n         \"despesaFixaDecorrenteIncendio\":\"1000.0\",\r\n         \"despesaFixaDanosEletricos\":\"1000.0\",\r\n         \"despesaFixaQuebraVidros\":\"1000.0\",\r\n         \"despesasFixaTumultos\":\"1000.0\",\r\n         \"periodoIndenitario\":1,\r\n         \"despesasFixasVendavalFuracaoCiclone\":\"1000.0\",\r\n         \"fidelidadeEmpregados\":\"1000.0\",\r\n         \"lucrosCessantesDanosEletricos\":\"1000.0\",\r\n         \"lucrosCessantesQuebraVidros\":\"1000.0\",\r\n         \"lucrosCessantesTumultos\":\"1000.0\",\r\n         \"lucrosCessantesVendavalFuracaoCiclone\":\"1000.0\",\r\n         \"lucrosCessantesQuebraMaquinas\":\"1000.0\",\r\n         \"rouboFurtoBensHoteis\":\"1000.0\",\r\n         \"valoresMaosPortadores\":\"1000.0\",\r\n         \"valoresInteriorEstabelecimento\":\"1000.0\"\r\n      },\r\n      \"coberturaTerceiros\":{\r\n         \"danosMorais\":\"1000.0\",\r\n         \"estabelecimentoComercialIndustrial\":\"1000.0\",\r\n         \"empregador\":\"1000.0\",\r\n         \"veiculosTerrestresMotorizados\":\"1000.0\",\r\n         \"assistenciaUnimedEmpresarial\":\"1000.0\"\r\n      }\r\n   },\r\n   \"questionarios\":{\r\n      \"sinistroLocalUltimoAno\":true,\r\n      \"extintoresCondicaoUso\":true,\r\n      \"quantidadeExtintoresCondicaoUso\":2,\r\n      \"hidratentesCondicaoUso\":true,\r\n      \"quantidadeHidratanteCondicaoUso\":3,\r\n      \"spriklerCondicaoUso\":true,\r\n      \"quantidadeSpriklerCondicaoUso\":3,\r\n      \"detectorFumacao\":true,\r\n      \"alarmeIncendio\":true,\r\n      \"sprinklersTotalRisco\":true,\r\n      \"brigadaIncendio\":true,\r\n      \"predioTombadoPatrimonioHistorico\":true,\r\n      \"localObraReforma\":true,\r\n      \"gradesJanlesClaraboias\":true,\r\n      \"cencontinaCercaeletrica\":true,\r\n      \"localizadoShoppingCenter\":false,\r\n      \"manutencao\":\"\",\r\n      \"alarmeRouboBens\":\"\",\r\n      \"vigilanciaTotal\":\"\",\r\n      \"vigentesLocalRisco\":true,\r\n      \"informarLMIDiscriminada\":\"Separado\",\r\n      \"valorIncendio\":\"1000\",\r\n      \"valorEdificio\":\"1000\",\r\n      \"valorConteudo\":\"1000\",\r\n      \"valorTotalRisco\":\"1000\"\r\n   }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/empresarial/salvar",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "empresarial",
+            "salvar"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "cotacao empresarial - consultar",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/empresarial/consultar?de=2021-07-01&ate=2021-12-01",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "empresarial",
+            "consultar"
+          ],
+          "query": [
+            {
+              "key": "numero",
+              "value": "9823474327",
+              "disabled": true
+            },
+            {
+              "key": "de",
+              "value": "2021-07-01"
+            },
+            {
+              "key": "ate",
+              "value": "2021-12-01"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "proposta rcp",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"numero\": \"string\",\r\n  \"dadosProposta\": {\r\n    \"dataCotacao\": \"2021-12-30T14:49:51.917Z\",\r\n    \"validade\": \"string\",\r\n    \"status\": \"string\"\r\n  },\r\n  \"dadosPessoaisProposta\": {\r\n    \"nome\": \"string\",\r\n    \"cpf\": \"string\",\r\n    \"cep\": \"string\",\r\n    \"tipoLogradouro\": \"string\",\r\n    \"logradouro\": \"string\",\r\n    \"numero\": 0,\r\n    \"complemento\": \"string\",\r\n    \"bairro\": \"string\",\r\n    \"cidade\": \"string\",\r\n    \"estado\": \"string\",\r\n    \"email\": \"string\",\r\n    \"telefone\": \"string\",\r\n    \"celular\": \"string\",\r\n    \"sexo\": \"string\",\r\n    \"estadoCivil\": \"string\",\r\n    \"nacionalidade\": \"string\",\r\n    \"profissao\": \"string\",\r\n    \"orgaoRegistro\": \"string\",\r\n    \"numeroRegistro\": 0,\r\n    \"estadoAtuacao\": \"string\",\r\n    \"medicoCooperado\": true\r\n  },\r\n  \"dadosSeguroCoberturaProposta\": {\r\n    \"produto\": \"string\",\r\n    \"vigenciaInicio\": \"string\",\r\n    \"vigenciaTermino\": \"string\",\r\n    \"tipoApolice\": \"string\",\r\n    \"numeroApolice\": 0,\r\n    \"limiteMaximoGarantia\": 0,\r\n    \"franquia\": 0,\r\n    \"chefeEquipe\": true,\r\n    \"diretorClinico\": true,\r\n    \"extensaoPJ\": true,\r\n    \"razaoSocial\": \"string\",\r\n    \"cnpj\": \"string\",\r\n    \"extensaoRetroativa\": true\r\n  },\r\n  \"especialidadesProposta\": {\r\n    \"especialidades\": [\r\n      \"string\"\r\n    ]\r\n  },\r\n  \"questionarioRiscoProposta\": {\r\n    \"temSeguroRCP\": true,\r\n    \"continuaVigente\": true,\r\n    \"inicioSeguroRCP\": \"string\",\r\n    \"fimSeguroRCP\": \"string\",\r\n    \"coberturaSimilarCancelada\": true,\r\n    \"motivoCoberturaSimilarCancelada\": \"string\",\r\n    \"seguradoraCoberturaSimilarCancelada\": \"string\",\r\n    \"idadeProponente\": 0,\r\n    \"completouResidenciaEspecialidade\": true,\r\n    \"proponenteTemReclamacao\": true\r\n  },\r\n  \"formasPagamentoProposta\": {\r\n    \"premioComercialAnual\": 0,\r\n    \"quantidadeParcelas\": 0,\r\n    \"valorParcela\": 0,\r\n    \"formaPagamento\": \"string\",\r\n    \"dataVencimento\": 0,\r\n    \"bancosConveniados\": 0,\r\n    \"numeroAgencia\": 0,\r\n    \"contaCorrente\": 0,\r\n    \"digitoContaCorrente\": 0\r\n  },\r\n  \"dadosEscritorioRegionalProposta\": {\r\n    \"codigoER\": 0,\r\n    \"nomeExecutivoUnimed\": \"string\",\r\n    \"codigoUnimedCorretor\": 0,\r\n    \"numeroRegistroSUSEP\": 0,\r\n    \"dataVencimento\": 0,\r\n    \"tabelaCIC\": \"string\",\r\n    \"razaoSocial\": \"string\",\r\n    \"cnpj\": \"string\",\r\n    \"participacao\": 0\r\n  }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/proposta/rcp/salvar",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "proposta",
+            "rcp",
+            "salvar"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "proposta rcp",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/proposta/rcp/consultar?de=2021-07-01&ate=2021-12-01",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "proposta",
+            "rcp",
+            "consultar"
+          ],
+          "query": [
+            {
+              "key": "numero",
+              "value": "9823474327",
+              "disabled": true
+            },
+            {
+              "key": "de",
+              "value": "2021-07-01"
+            },
+            {
+              "key": "ate",
+              "value": "2021-12-01"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "proposta residencial",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"numero\": \"string\",\r\n  \"dadosProposta\": {\r\n    \"dataCotacao\": \"2021-12-30T14:52:00.529Z\",\r\n    \"validade\": \"string\",\r\n    \"status\": \"string\"\r\n  },\r\n  \"dadosImportantesProposta\": {\r\n    \"nomeSegurado\": \"string\",\r\n    \"cep\": \"string\",\r\n    \"tipoLogradouro\": \"string\",\r\n    \"nomeLogradouro\": \"string\",\r\n    \"numeroLogradouro\": 0,\r\n    \"complementoLogradouro\": \"string\",\r\n    \"bairro\": \"string\",\r\n    \"cidade\": \"string\",\r\n    \"estado\": \"string\",\r\n    \"cpf\": \"string\",\r\n    \"orgaoExpeditor\": \"string\",\r\n    \"dataExpedicao\": \"string\",\r\n    \"uf\": \"string\",\r\n    \"sexo\": \"string\",\r\n    \"estadoCivil\": \"string\",\r\n    \"dataNascimento\": \"string\",\r\n    \"email\": \"string\",\r\n    \"telefone\": \"string\",\r\n    \"celular\": \"string\",\r\n    \"politicamenteExposto\": true,\r\n    \"cargoPoliticamenteExposto\": \"string\",\r\n    \"profissaoPoliticamenteExposto\": \"string\",\r\n    \"rendaPoliticamenteExposto\": \"string\"\r\n  },\r\n  \"sobreProdutoProposta\": {\r\n    \"produto\": \"string\",\r\n    \"tipoApolice\": \"string\",\r\n    \"numeroApolice\": \"string\",\r\n    \"inicioVigencia\": \"string\",\r\n    \"fimVigencia\": 0,\r\n    \"tipoImovel\": \"string\",\r\n    \"tipoPropriedade\": \"string\",\r\n    \"tipoConstrucao\": \"string\",\r\n    \"localRisco\": \"string\",\r\n    \"numero\": 0,\r\n    \"complemento\": \"string\",\r\n    \"cep\": \"string\",\r\n    \"bairro\": \"string\",\r\n    \"cidade\": \"string\",\r\n    \"uf\": \"string\",\r\n    \"valorRiscoDeclarado\": 0,\r\n    \"limiteMaximoGarantia\": 0\r\n  },\r\n  \"maisDetalhesProposta\": {\r\n    \"ieqr\": 0,\r\n    \"pagamentoAluguel\": 0,\r\n    \"responsabilidadeCivilFamiliar\": 0,\r\n    \"rouboFurto\": 0,\r\n    \"danosEletricos\": 0,\r\n    \"vendavalFuracaoCicloneTornado\": 0,\r\n    \"quebraVidros\": 0,\r\n    \"premioLiquido\": 0,\r\n    \"adicionalFracionamento\": 0,\r\n    \"iof\": 0,\r\n    \"valorParcela\": 0,\r\n    \"opcaoPagamento\": \"string\",\r\n    \"quantidadeParcelas\": 0,\r\n    \"vencimento\": 0,\r\n    \"bancoConveniado\": \"string\",\r\n    \"numeroAgencia\": 0,\r\n    \"contaCorrente\": 0,\r\n    \"digitoContaCorrente\": 0\r\n  },\r\n  \"relacaoBensProposta\": {\r\n    \"bebedouro\": \"string\",\r\n    \"bluray\": \"string\",\r\n    \"cafeteira\": \"string\",\r\n    \"calculadora\": \"string\",\r\n    \"cameraFotografica\": \"string\",\r\n    \"cdPlayer\": \"string\",\r\n    \"computador\": \"string\",\r\n    \"dvdPlayer\": \"string\",\r\n    \"equalizador\": \"string\",\r\n    \"fax\": \"string\",\r\n    \"filmadora\": \"string\",\r\n    \"fogao\": \"string\",\r\n    \"geladeira\": \"string\",\r\n    \"homeTheater\": \"string\",\r\n    \"identificadorChamadas\": \"string\",\r\n    \"impressora\": \"string\",\r\n    \"maquinaLouca\": \"string\",\r\n    \"maquinaLavar\": \"string\",\r\n    \"maquinaSecar\": \"string\",\r\n    \"microondas\": \"string\",\r\n    \"multifuncional\": \"string\",\r\n    \"notebook\": \"string\",\r\n    \"projetorImagem\": \"string\",\r\n    \"receiver\": \"string\",\r\n    \"scanner\": \"string\",\r\n    \"secadorCabelo\": \"string\",\r\n    \"secretariaEletronica\": \"string\",\r\n    \"sistemaAlarme\": \"string\",\r\n    \"telefone\": \"string\",\r\n    \"televisao\": \"string\",\r\n    \"videoGame\": \"string\",\r\n    \"videoCassete\": \"string\",\r\n    \"videoke\": \"string\"\r\n  },\r\n  \"informacaoInternasProposta\": {\r\n    \"codigoER\": 0,\r\n    \"nomeExecutivoUnimed\": \"string\",\r\n    \"codigoCorretor\": 0,\r\n    \"numeroRegistroSUSEP\": 0,\r\n    \"cic\": \"string\",\r\n    \"razaoSocial\": \"string\",\r\n    \"cpfCNPJ\": \"string\",\r\n    \"participacao\": 0\r\n  }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/proposta/residencial/salvar",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "proposta",
+            "residencial",
+            "salvar"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "proposta residencial",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/proposta/residencial/consultar?de=2021-07-01&ate=2022-12-01",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "proposta",
+            "residencial",
+            "consultar"
+          ],
+          "query": [
+            {
+              "key": "numero",
+              "value": "9823474327",
+              "disabled": true
+            },
+            {
+              "key": "de",
+              "value": "2021-07-01"
+            },
+            {
+              "key": "ate",
+              "value": "2022-12-01"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "proposta empresarial",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"numero\": \"string\",\r\n  \"dadosProposta\": {\r\n    \"dataCotacao\": \"2021-12-30T14:54:48.893Z\",\r\n    \"validade\": \"string\",\r\n    \"status\": \"string\"\r\n  },\r\n  \"dadosProponenteProposta\": {\r\n    \"razaoSocial\": \"string\",\r\n    \"cnpj\": \"string\",\r\n    \"dataExpedicao\": \"string\",\r\n    \"orgaoExpeditor\": \"string\",\r\n    \"uf\": \"string\",\r\n    \"ramoAtividade\": \"string\",\r\n    \"email\": \"string\",\r\n    \"telefone\": \"string\",\r\n    \"celular\": \"string\",\r\n    \"utilizarEnderecosLocalRisco\": true,\r\n    \"cep\": \"string\",\r\n    \"tipoLogradouro\": \"string\",\r\n    \"logradouro\": \"string\",\r\n    \"numero\": 0,\r\n    \"complemento\": \"string\",\r\n    \"bairro\": \"string\",\r\n    \"cidade\": \"string\",\r\n    \"estado\": \"string\"\r\n  },\r\n  \"dadosSeguroProposta\": {\r\n    \"tipoSeguro\": \"string\",\r\n    \"numeroRenovaApolice\": 0,\r\n    \"seguradora\": \"string\",\r\n    \"vigenciaInicial\": \"string\",\r\n    \"vigenciaFinal\": \"string\",\r\n    \"classeBonus\": \"string\"\r\n  },\r\n  \"localRiscoProposta\": {\r\n    \"localRiscoLogradouro\": \"string\",\r\n    \"numero\": 0,\r\n    \"complemento\": \"string\",\r\n    \"cep\": \"string\",\r\n    \"bairro\": \"string\",\r\n    \"cidade\": \"string\",\r\n    \"uf\": \"string\",\r\n    \"ocupacao\": \"string\",\r\n    \"subOcupacao\": \"string\",\r\n    \"tipoConstrucao\": \"string\",\r\n    \"valorRiscoDeclarado\": 0,\r\n    \"limiteMaximoGarantia\": 0,\r\n    \"descontosProtecionais\": {\r\n      \"extintores\": true,\r\n      \"sprinklers\": true,\r\n      \"gradesJanelasClaraboias\": true,\r\n      \"cercontinaCercaEletrica\": true\r\n    },\r\n    \"questionarios\": {\r\n      \"extintores\": {\r\n        \"instalados\": true,\r\n        \"quantidade\": 0\r\n      },\r\n      \"hidrantes\": {\r\n        \"instalados\": true,\r\n        \"quantidade\": 0\r\n      },\r\n      \"sprinklers\": {\r\n        \"instalados\": true,\r\n        \"quantidade\": 0\r\n      },\r\n      \"brigadaIncendio\": {\r\n        \"possui\": true,\r\n        \"atendeTodoRiscos\": true\r\n      },\r\n      \"detectoresFumaca\": true,\r\n      \"manutencao\": \"string\",\r\n      \"alarmeRouboBensMonitorado\": true,\r\n      \"vigilancia\": \"string\",\r\n      \"localizadoShoppingCenter\": true,\r\n      \"sinistroUltimoANo\": true,\r\n      \"predioTombadoParimonioHistorico\": true,\r\n      \"localObraReforma\": true\r\n    },\r\n    \"contatoTelefone1\": \"string\",\r\n    \"contatoTelefone2\": \"string\"\r\n  },\r\n  \"formaPagamentoProposta\": {\r\n    \"premioLiquido\": 0,\r\n    \"adicionalFracionamento\": 0,\r\n    \"iof\": 0,\r\n    \"valorParcela\": 0,\r\n    \"opcaoPagamento\": \"string\",\r\n    \"quantidadeParcelas\": 0,\r\n    \"diaVencimento\": 0,\r\n    \"bancoConveniado\": \"string\",\r\n    \"agencia\": 0,\r\n    \"contaCorrente\": 0,\r\n    \"digito\": 0\r\n  },\r\n  \"dadosEscritorioRegionalProposta\": {\r\n    \"codigoER\": 0,\r\n    \"nomeExecutivoUnimed\": \"string\",\r\n    \"codigoUnimedCorretor\": 0,\r\n    \"numeroRegistroSUSEP\": 0,\r\n    \"dataVencimento\": 0,\r\n    \"tabelaCIC\": \"string\",\r\n    \"razaoSocial\": \"string\",\r\n    \"cnpj\": \"string\",\r\n    \"participacao\": 0\r\n  },\r\n  \"clausulaBeneficiaria\": {\r\n    \"possuiClausulaBeneficiaria\": true\r\n  }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/proposta/empresarial/salvar",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "proposta",
+            "empresarial",
+            "salvar"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "proposta empresarial",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "laBHU9UiXv8npq37Eex304kt5SaYu0Ct9fA1gNrs",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://api-services-hml2.digital-segurosunimed.com/portalpj-re/corretor/proposta/empresarial/consultar?de=2021-07-01&ate=2022-12-01",
+          "protocol": "https",
+          "host": [
+            "api-services-hml2",
+            "digital-segurosunimed",
+            "com"
+          ],
+          "path": [
+            "portalpj-re",
+            "corretor",
+            "proposta",
+            "empresarial",
+            "consultar"
+          ],
+          "query": [
+            {
+              "key": "numero",
+              "value": "9823474327",
+              "disabled": true
+            },
+            {
+              "key": "de",
+              "value": "2021-07-01"
+            },
+            {
+              "key": "ate",
+              "value": "2022-12-01"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

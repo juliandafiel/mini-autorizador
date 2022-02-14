@@ -1,0 +1,15 @@
+## datasource
+spring:
+   datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      username: mysql
+      password: 
+      url: jdbc:mysql://localhost:3306/miniautorizador
+   jpa:
+      hibernate.ddl-auto: update
+      generate-ddl: true
+      show-sql: true 
+      database-platform: org.hibernate.dialect.MySQLDialect
+ 
+# 
+#
