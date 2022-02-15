@@ -3,10 +3,10 @@ package com.br.miniaut.miniautorizador.service;
 import java.util.Objects;
 import java.util.Optional;
 
-import javax.transaction.Transactional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.br.miniaut.miniautorizador.dto.CartaoDto;
 import com.br.miniaut.miniautorizador.model.Cartao;
@@ -44,7 +44,7 @@ public class CartaoServiceImpl implements CartaoService{
 	}
 	
 	@Override
-	@Transactional
+	@Transactional(isolation = Isolation.SERIALIZABLE,readOnly = false)
 	public GenericMessage realizarSaque(Cartao cartao) throws Exception {
 		
 		CartaoDto cartaoDto = acessarCartao(cartao.getNumeroCartao(),cartao.getSenha()).get();
