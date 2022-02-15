@@ -72,13 +72,13 @@ public class CartaoController {
 			Optional<CartaoDto> cartaoDto = cartaoService.acessarCartao(cartao.getNumeroCartao(),cartao.getSenha());
 
 			if(!cartaoExiste(cartao)) {
-				return tratarExcecao(ErroEnum.CARTAO_INEXISTENTE);
+				return new ResponseEntity(new GenericMessage(Messages.SENHA_INCORRETA), HttpStatus.UNPROCESSABLE_ENTITY);
 			}
 			if(senhaEstaIncorreta(cartaoDto)) {
-				return tratarExcecao(ErroEnum.SENHA_INVALIDA);
+				return new ResponseEntity(new GenericMessage(Messages.CARTAO_INEXISTENTE), HttpStatus.UNPROCESSABLE_ENTITY);
 			}
 			if(saldoEhInsuficiente(cartaoDto,cartao)){
-				return tratarExcecao(ErroEnum.SALDO_INSUFICIENTE);
+				return new ResponseEntity(new GenericMessage(Messages.SALDO_INSUFICIENTE), HttpStatus.UNPROCESSABLE_ENTITY);
 			}
 			
 			 
@@ -87,21 +87,7 @@ public class CartaoController {
 		}
 		return new ResponseEntity(new GenericMessage("Processo concluído com sucesso"), HttpStatus.OK);
 	}
-	
 	 
-	@SuppressWarnings({ "unchecked", "rawtypes" })
-	private ResponseEntity tratarExcecao(ErroEnum erro) {
-		
-	    switch (erro) {
-	        case SENHA_INVALIDA:
-	        	return new ResponseEntity(new GenericMessage(Messages.SENHA_INCORRETA), HttpStatus.UNPROCESSABLE_ENTITY);
-	        case CARTAO_INEXISTENTE:
-	        	return new ResponseEntity(new GenericMessage(Messages.CARTAO_INEXISTENTE), HttpStatus.UNPROCESSABLE_ENTITY);
-	        case SALDO_INSUFICIENTE:
-	        	new ResponseEntity(new GenericMessage(Messages.SALDO_INSUFICIENTE), HttpStatus.UNPROCESSABLE_ENTITY);
-	    }
-		return null;
-	}
 	  
 	
 	private boolean saldoEhInsuficiente(Optional<CartaoDto> cartaoDto, @Valid Cartao cartao) {
