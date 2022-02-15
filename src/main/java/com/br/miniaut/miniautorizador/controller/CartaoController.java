@@ -67,8 +67,8 @@ public class CartaoController {
 	@GetMapping(path = "/transacoes", produces = "application/json")
 	public ResponseEntity<GenericMessage> obterCartao(@RequestBody @Valid  Cartao cartao) {
 		
+		GenericMessage genericMessage = null;
 		try {
-			
 			Optional<CartaoDto> cartaoDto = cartaoService.acessarCartao(cartao.getNumeroCartao(),cartao.getSenha());
 
 			if(!cartaoExiste(cartao)) {
@@ -81,11 +81,13 @@ public class CartaoController {
 				return new ResponseEntity(new GenericMessage(Messages.SALDO_INSUFICIENTE), HttpStatus.UNPROCESSABLE_ENTITY);
 			}
 			
+			genericMessage = cartaoService.realizarSaque(cartao);
+			
 			 
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return new ResponseEntity(new GenericMessage("Processo concluído com sucesso"), HttpStatus.OK);
+		return new ResponseEntity(genericMessage, HttpStatus.OK);
 	}
 	 
 	  

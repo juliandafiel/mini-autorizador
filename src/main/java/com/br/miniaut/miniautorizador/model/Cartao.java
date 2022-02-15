@@ -41,6 +41,7 @@ public class Cartao {
 	public Cartao(CartaoDto cartao) {
 		setNumeroCartao(cartao.getNumeroCartao());
 		setSenha(cartao.getSenha());
+		setSaldo(cartao.getSaldo());
 	}
 	
 }

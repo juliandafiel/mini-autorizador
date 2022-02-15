@@ -3,6 +3,8 @@ package com.br.miniaut.miniautorizador.service;
 import java.util.Objects;
 import java.util.Optional;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,6 +13,7 @@ import com.br.miniaut.miniautorizador.model.Cartao;
 import com.br.miniaut.miniautorizador.repository.CartaoRepository;
 import com.br.miniaut.miniautorizador.util.EncriptacaoUtil;
 import com.br.miniaut.miniautorizador.util.GenericMessage;
+import com.br.miniaut.miniautorizador.util.Messages;
 
 
 @Service
@@ -41,13 +44,18 @@ public class CartaoServiceImpl implements CartaoService{
 	}
 	
 	@Override
+	@Transactional
 	public GenericMessage realizarSaque(Cartao cartao) throws Exception {
 		
-		if(!existeObjeto(cartao)) {
-			throw new Exception();
+		CartaoDto cartaoDto = acessarCartao(cartao.getNumeroCartao(),cartao.getSenha()).get();
+		if(Objects.isNull(cartaoDto)) {
+			return new GenericMessage(Messages.CARTAO_INEXISTENTE);
 		}
 		
-		return null;
+		cartao.setSaldo(cartaoDto.getSaldo().subtract(cartao.getValor()));
+		cartaoRepository.save(cartao);
+		
+		return new GenericMessage(Messages.SUCESSO);
 	}
 
 	@Override
