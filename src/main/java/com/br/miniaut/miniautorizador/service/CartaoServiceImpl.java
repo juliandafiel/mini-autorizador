@@ -53,6 +53,7 @@ public class CartaoServiceImpl implements CartaoService{
 		}
 		
 		cartao.setSaldo(cartaoDto.getSaldo().subtract(cartao.getValor()));
+		cartao.setSenha(EncriptacaoUtil.encriptarMd5(cartao.getSenha()));
 		cartaoRepository.save(cartao);
 		
 		return new GenericMessage(Messages.SUCESSO);
